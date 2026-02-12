@@ -1,0 +1,61 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+*.log.*
+debug.log
+error.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Build outputs
+dist/
+build/
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Redis dump files
+dump.rdb
+*.rdb
+
+# MongoDB data files
+*.lock
+*.ns
+*.wt
+*.bson
+*.json
+
+# Optional: keep test snapshots out
+__snapshots__/
+
+# Optional: ignore uploads if you store files locally
+uploads/
