@@ -23,7 +23,7 @@ redisClient.connect().then(()=>console.log("Connected to Redis successfully")).c
 });
 const app = express();
 app.use(express.json());    
-//routes
+
 app.use("/api", userRoutes);
 
 
